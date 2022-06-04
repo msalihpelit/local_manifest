@@ -4,7 +4,7 @@
   <remote name="Me"
           fetch="https://github.com/msalihpelit" />
   
-  <remote name="VoltageOS" 
+  <remote name="CherishOS" 
           fetch="https://github.com/CherishOS" /> 
   
 
