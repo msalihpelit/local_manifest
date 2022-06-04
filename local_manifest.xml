@@ -13,4 +13,14 @@
   <project path="kernel/xiaomi/ginkgo" name="android_kernel_xiaomi_ginkgo" remote="Me" revision="12.1" />
   <project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo" remote="Me" revision="12.1" />
 
+<!-- Hardware Stuff -->
+  <remove-project name="LineageOS/android_hardware_qcom_audio" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" />
+  <remove-project name="LineageOS/android_hardware_qcom_media" />
+  <remove-project name="android_hardware_xiaomi" />
+
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="Arrow" revision="arrow-12.1-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="Arrow" revision="arrow-12.1-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="Arrow" revision="arrow-12.1-caf-sm8150" />
+
 </manifest>
