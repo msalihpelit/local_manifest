@@ -10,7 +10,7 @@
 
   <!-- Trees -->
   <project path="device/xiaomi/willow" name="android_device_xiaomi_willow" remote="Me" revision="12.1" />
-  <project path="kernel/xiaomi/ginkgo" name="android_kernel_xiaomi_ginkgo" remote="Me" revision="twelve" />
-  <project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo" remote="Me" revision="pie-chromatix" />
+  <project path="kernel/xiaomi/ginkgo" name="android_kernel_xiaomi_ginkgo" remote="Me" revision="12.1" />
+  <project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo" remote="Me" revision="12.1" />
 
 </manifest>
