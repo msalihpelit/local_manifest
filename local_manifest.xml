@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <remote name="Me"
+          fetch="https://github.com/Siimsek" />
+   
+  <remote name="Arrow"
+          fetch="https://github.com/ArrowOS" />
+
+  <remote name="AD"
+          fetch="https://github.com/ArrowOS-Devices" />
+  
+  <remote name="VoltageOS" 
+          fetch="https://github.com/VoltageOS" /> 
+  
+  <remote name="kdrag0n" 
+          fetch="https://github.com/kdrag0n" />
+
+  <!-- Trees -->
+  <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo" remote="Me" revision="12.1" />
+  <project path="kernel/xiaomi/ginkgo" name="quicksilver_kernel_xiaomi_ginkgo" remote="Me" revision="twelve" />
+  <project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo" remote="Me" revision="pie-chromatix" />
+
+</manifest>
