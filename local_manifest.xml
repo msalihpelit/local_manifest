@@ -6,6 +6,9 @@
   
   <remote name="CherishOS" 
           fetch="https://github.com/CherishOS" /> 
+
+  <remote name="Arrow"
+          fetch="https://github.com/ArrowOS" />
   
 
   <!-- Trees -->
