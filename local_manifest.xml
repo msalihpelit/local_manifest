@@ -4,13 +4,29 @@
   <remote name="Me"
           fetch="https://github.com/msalihpelit" />
   
-  <remote name="VoltageOS" 
+  <remote name="CherishOS" 
           fetch="https://github.com/CherishOS" /> 
-  
 
+  <remote name="Arrow"
+          fetch="https://github.com/ArrowOS" />
+  
+  <remote  name="clang"  
+          fetch="https://github.com/kdrag0n" />
+  
   <!-- Trees -->
-  <project path="device/xiaomi/willow" name="android_device_xiaomi_willow" remote="Me" revision="12.1" />
-  <project path="kernel/xiaomi/ginkgo" name="quicksilver_kernel_xiaomi_ginkgo" remote="Me" revision="twelve" />
-  <project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo" remote="Me" revision="pie-chromatix" />
+  <project path="device/xiaomi/willow" name="android_device_xiaomi_willow" remote="Me" revision="twelve" />
+  <project path="kernel/xiaomi/ginkgo" name="android_kernel_xiaomi_ginkgo" remote="Me" revision="twelve" />
+  <project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo" remote="Me" revision="twelve" />
+
+  <!-- Hardware Stuff -->
+  <remove-project name="LineageOS/android_hardware_qcom_audio" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" />
+  <remove-project name="LineageOS/android_hardware_qcom_media" />
+  <remove-project name="android_hardware_xiaomi" />
+
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="Arrow" revision="arrow-12.1-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="Arrow" revision="arrow-12.1-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="Arrow" revision="arrow-12.1-caf-sm8150" />
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 
 </manifest>
