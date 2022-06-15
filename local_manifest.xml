@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="fiqri19102002"
+    <remote name="msalihpelit"
             fetch="https://github.com/msalihpelit" />
 
     <remote name="kdrag0n"
             fetch="https://github.com/kdrag0n" />
 
 <!-- Device tree -->
-<project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo.git" remote="msalihpelit" revision="twelwe" />
+<project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo.git" remote="msalihpelit" revision="12.1" />
 
 <!-- Vendor tree -->
-<project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo.git" remote="msalihpelit" revision="twelwe" />
+<project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo.git" remote="msalihpelit" revision="12.1" />
 
 <!-- Kernel tree -->
-<project path="kernel/xiaomi/ginkgo" name="android_kernel_xiaomi_ginkgo.git" remote="msalihpelit" revision="twelwe" />
+<project path="kernel/xiaomi/ginkgo" name="android_kernel_xiaomi_ginkgo.git" remote="msalihpelit" revision="12.1" />
 
 <!-- MIUI camera tree -->
 <project path="vendor/miuicamera" name="android_vendor_miuicamera.git" remote="msalihpelit" revision="arrow-12.1-a3" />
